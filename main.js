@@ -5,22 +5,22 @@ let line2 = document.getElementById("line2")
 let line3 = document.getElementById("line3")
 let line4 = document.getElementById("line4")
 
-line1.onclick = function() {
+line1.addEventListener("click", function() {
    slider.style.transform = "translateX(0)"
    active.style.left = "0px"
-}
+}) 
 
-line2.onclick = function() {
+line2.addEventListener("click", function() {
    slider.style.transform = "translateX(-25%)"
    active.style.left = "80px"
-}
+})
 
-line3.onclick = function() {
+line3.addEventListener("click", function() {
    slider.style.transform = "translateX(-50%)"
    active.style.left = "160px"
-}
+})
 
-line4.onclick = function() {
+line4.addEventListener("click", function() {
    slider.style.transform = "translateX(-75%)"
    active.style.left = "240px"
-}
+})
